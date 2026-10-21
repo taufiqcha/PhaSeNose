@@ -1,0 +1,35 @@
+{
+ "jumlah_segar": 10,
+ "jumlah_dipanaskan": 60,
+ "lda_5fold_dR": {
+  "akurasi": 0.8714285714285714,
+  "akurasi_seimbang": 0.7166666666666667
+ },
+ "lda_tinggalkan_sesi_dR": {
+  "akurasi": 0.8714285714285714,
+  "akurasi_seimbang": 0.7166666666666667
+ },
+ "lda_tinggalkan_sesi_baseline": {
+  "akurasi": 0.2,
+  "akurasi_seimbang": 0.15833333333333333
+ },
+ "aturan_S1_LOO": {
+  "akurasi": 0.9857142857142858,
+  "akurasi_seimbang": 0.95
+ },
+ "aturan_S1_tinggalkan_sesi": {
+  "akurasi": 0.9857142857142858,
+  "akurasi_seimbang": 0.95,
+  "per_kelompok": {
+   "SA_0113": 0.9,
+   "SA_0118": 1.0,
+   "SA_0119": 1.0,
+   "SA_0120": 1.0,
+   "SIP_0102": 1.0,
+   "SIP_0103": 1.0,
+   "SIP_0104": 1.0,
+   "SIP_1230": 1.0
+  }
+ },
+ "ambang_S1_mV_seluruh_data": 17.46646341463412
+}

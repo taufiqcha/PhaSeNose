@@ -1,0 +1,87 @@
+{
+ "xlsx": {
+  "jumlah": 70,
+  "minyak": [
+   "SA",
+   "SIP"
+  ],
+  "jam": [
+   0,
+   10,
+   20,
+   30,
+   40,
+   50,
+   60
+  ],
+  "ulangan": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "kolom": [
+   8
+  ],
+  "baris_terbanyak": 240,
+  "baris_tersedikit": 148,
+  "berkas_di_bawah_terbanyak": {
+   "SA_20-1.xlsx": 148
+  }
+ },
+ "gcms": {
+  "kromatogram": {
+   "SA 0.pdf": {
+    "akuisisi": "25 Oct 2023",
+    "metode": "extract at 80C 45mnt DVB/CAR/PDMS 2cm"
+   },
+   "SA 20.pdf": {
+    "akuisisi": "25 Oct 2023",
+    "metode": "extract at 80C 45mnt DVB/CAR/PDMS 2cm"
+   },
+   "SA 40.pdf": {
+    "akuisisi": "26 Oct 2023",
+    "metode": "extract at 80C 45mnt DVB/CAR/PDMS 2cm"
+   },
+   "SA 50.pdf": {
+    "akuisisi": "26 Oct 2023",
+    "metode": "extract at 80C 45mnt DVB/CAR/PDMS 2cm"
+   },
+   "SA 60.pdf": {
+    "akuisisi": "24 Oct 2023",
+    "metode": "extract at 80C 45mnt DVB/CAR/PDMS 2cm"
+   },
+   "SIP 0.pdf": {
+    "akuisisi": "26 Oct 2023",
+    "metode": "extract at 80C 45mnt DVB/CAR/PDMS 2cm"
+   },
+   "SIP 20.pdf": {
+    "akuisisi": "26 Oct 2023",
+    "metode": "extract at 80C 45mnt DVB/CAR/PDMS 2cm"
+   },
+   "SIP 40.pdf": {
+    "akuisisi": "26 Oct 2023",
+    "metode": "extract at 80C 45mnt DVB/CAR/PDMS 2cm"
+   },
+   "SIP 50.pdf": {
+    "akuisisi": "27 Oct 2023",
+    "metode": "extract at 80C 45mnt DVB/CAR/PDMS 2cm"
+   },
+   "SIP 60.pdf": {
+    "akuisisi": "26 Oct 2023",
+    "metode": "extract at 80C 45mnt DVB/CAR/PDMS 2cm"
+   }
+  },
+  "puncak": 1379,
+  "tanggal_akuisisi": [
+   "24 Oct 2023",
+   "25 Oct 2023",
+   "26 Oct 2023",
+   "27 Oct 2023"
+  ],
+  "metode": [
+   "extract at 80C 45mnt DVB/CAR/PDMS 2cm"
+  ]
+ }
+}

@@ -1,0 +1,245 @@
+{
+ "jumlah_titik": 10,
+ "jumlah_titik_dipanaskan": 8,
+ "sensor_spearman_tertinggi": "S1",
+ "sepuluh_titik": {
+  "S1": {
+   "spearman": 0.9030303030303028,
+   "spearman_p": 0.00034361219776328223,
+   "pearson": 0.9612118710290364,
+   "pearson_p": 9.449609389774626e-06
+  },
+  "S2": {
+   "spearman": 0.8181818181818182,
+   "spearman_p": 0.0038149200825507135,
+   "pearson": 0.9277068045692615,
+   "pearson_p": 0.00010944216165800587
+  },
+  "S3": {
+   "spearman": 0.6969696969696969,
+   "spearman_p": 0.02509667588225183,
+   "pearson": 0.8540617253214193,
+   "pearson_p": 0.0016576693725186724
+  },
+  "S4": {
+   "spearman": 0.8060606060606059,
+   "spearman_p": 0.004862061101964606,
+   "pearson": 0.9413825992866334,
+   "pearson_p": 4.8106431172710244e-05
+  },
+  "S5": {
+   "spearman": 0.6848484848484848,
+   "spearman_p": 0.02888279750673276,
+   "pearson": 0.8394929618234273,
+   "pearson_p": 0.002380982965077403
+  },
+  "S6": {
+   "spearman": 0.8424242424242423,
+   "spearman_p": 0.0022200312259168407,
+   "pearson": 0.9543517768810342,
+   "pearson_p": 1.7975574152197577e-05
+  },
+  "S7": {
+   "spearman": 0.8303030303030302,
+   "spearman_p": 0.0029402270232795065,
+   "pearson": 0.9076478695692195,
+   "pearson_p": 0.0002843182245642417
+  },
+  "S8": {
+   "spearman": 0.8303030303030302,
+   "spearman_p": 0.0029402270232795065,
+   "pearson": 0.8747965239236516,
+   "pearson_p": 0.0009218371959423
+  }
+ },
+ "R2_LOO_linier_total_area": {
+  "S1": {
+   "semua": 0.8967412073519225,
+   "dipanaskan": 0.8227382270315478
+  },
+  "S2": {
+   "semua": 0.7602274748708552,
+   "dipanaskan": 0.62950683716678
+  },
+  "S3": {
+   "semua": 0.4892995153258428,
+   "dipanaskan": 0.2771755561110858
+  },
+  "S4": {
+   "semua": 0.7980718814547504,
+   "dipanaskan": 0.6877779087744376
+  },
+  "S5": {
+   "semua": 0.4783780798102093,
+   "dipanaskan": 0.2553266671996137
+  },
+  "S6": {
+   "semua": 0.8613749505142523,
+   "dipanaskan": 0.8138120408107428
+  },
+  "S7": {
+   "semua": 0.66431103115674,
+   "dipanaskan": 0.44476624955162425
+  },
+  "S8": {
+   "semua": 0.5076515278000695,
+   "dipanaskan": 0.22263818956412007
+  }
+ },
+ "kontrol_baseline_R2_LOO_linier_total_area": {
+  "S1": {
+   "semua": 0.12687818181493893,
+   "dipanaskan": 0.15062922807473256
+  },
+  "S2": {
+   "semua": 0.19789452921837392,
+   "dipanaskan": 0.05217424233014378
+  },
+  "S3": {
+   "semua": 0.24259802156642163,
+   "dipanaskan": 0.46535327411156235
+  },
+  "S4": {
+   "semua": 0.16342787051801233,
+   "dipanaskan": 0.008683516483046105
+  },
+  "S5": {
+   "semua": 0.30645583442715274,
+   "dipanaskan": 0.365156505938219
+  },
+  "S6": {
+   "semua": 0.25725970933309805,
+   "dipanaskan": 0.259934388700541
+  },
+  "S7": {
+   "semua": 0.25875164541037443,
+   "dipanaskan": 0.39850811741411074
+  },
+  "S8": {
+   "semua": 0.2934579094010493,
+   "dipanaskan": 0.1498677952514471
+  }
+ },
+ "R2_LOO_pls_semua_sensor": {
+  "semua": 0.7786943604618559,
+  "dipanaskan": 0.6179779650840116
+ },
+ "kontrol_baseline_R2_LOO_pls_semua_sensor": {
+  "semua": -0.3254169119891279,
+  "dipanaskan": -0.29315181788335987
+ },
+ "prediksi_loo_per_titik": {
+  "SA 0": {
+   "gc_total": 1771379433,
+   "prediksi_pls_semua_sensor": 2952701788.359583,
+   "prediksi_linier_sensor_terbaik": 2378011085.060762,
+   "dR_sensor_terbaik": 9.819918699186996
+  },
+  "SA 20": {
+   "gc_total": 5886858656,
+   "prediksi_pls_semua_sensor": 6846886193.150214,
+   "prediksi_linier_sensor_terbaik": 6240548215.480718,
+   "dR_sensor_terbaik": 44.065650406504076
+  },
+  "SA 40": {
+   "gc_total": 8125807944,
+   "prediksi_pls_semua_sensor": 4547125982.823862,
+   "prediksi_linier_sensor_terbaik": 5026292763.520443,
+   "dR_sensor_terbaik": 37.923780487804876
+  },
+  "SA 50": {
+   "gc_total": 6321350387,
+   "prediksi_pls_semua_sensor": 6411176061.642204,
+   "prediksi_linier_sensor_terbaik": 7489926815.785905,
+   "dR_sensor_terbaik": 54.10223577235771
+  },
+  "SA 60": {
+   "gc_total": 6166099230,
+   "prediksi_pls_semua_sensor": 7608642977.6981535,
+   "prediksi_linier_sensor_terbaik": 8467578121.446998,
+   "dR_sensor_terbaik": 61.5991869918699
+  },
+  "SIP 0": {
+   "gc_total": 1206653777,
+   "prediksi_pls_semua_sensor": 1639210256.9847717,
+   "prediksi_linier_sensor_terbaik": 1967388182.9103618,
+   "dR_sensor_terbaik": 5.8067073170731645
+  },
+  "SIP 20": {
+   "gc_total": 19849438314,
+   "prediksi_pls_semua_sensor": 20660858414.46588,
+   "prediksi_linier_sensor_terbaik": 18988301835.207085,
+   "dR_sensor_terbaik": 157.25528455284552
+  },
+  "SIP 40": {
+   "gc_total": 16227453363,
+   "prediksi_pls_semua_sensor": 16544627950.18137,
+   "prediksi_linier_sensor_terbaik": 17388803709.99434,
+   "dR_sensor_terbaik": 137.9573170731707
+  },
+  "SIP 50": {
+   "gc_total": 15112066554,
+   "prediksi_pls_semua_sensor": 9037277538.354809,
+   "prediksi_linier_sensor_terbaik": 11154050469.90118,
+   "dR_sensor_terbaik": 90.70406504065038
+  },
+  "SIP 60": {
+   "gc_total": 14340627640,
+   "prediksi_pls_semua_sensor": 19561417350.922215,
+   "prediksi_linier_sensor_terbaik": 16160451099.853249,
+   "dR_sensor_terbaik": 126.67195121951218
+  }
+ },
+ "kontrol_baseline_prediksi_loo_per_titik": {
+  "SA 0": {
+   "prediksi_pls_semua_sensor": 7401992432.960895,
+   "prediksi_linier_sensor_terbaik": 9727661133.580673,
+   "baseline_sensor_terbaik": 452.9166666666667
+  },
+  "SA 20": {
+   "prediksi_pls_semua_sensor": 1933569531.7780943,
+   "prediksi_linier_sensor_terbaik": 6021868819.252296,
+   "baseline_sensor_terbaik": 399.2416666666667
+  },
+  "SA 40": {
+   "prediksi_pls_semua_sensor": 3521283378.5217113,
+   "prediksi_linier_sensor_terbaik": 7779094959.741646,
+   "baseline_sensor_terbaik": 432.925
+  },
+  "SA 50": {
+   "prediksi_pls_semua_sensor": 8446022687.328388,
+   "prediksi_linier_sensor_terbaik": 4877588059.610416,
+   "baseline_sensor_terbaik": 385.5416666666667
+  },
+  "SA 60": {
+   "prediksi_pls_semua_sensor": 3174101395.359234,
+   "prediksi_linier_sensor_terbaik": 6611472912.646776,
+   "baseline_sensor_terbaik": 409.1666666666667
+  },
+  "SIP 0": {
+   "prediksi_pls_semua_sensor": 14918579582.201683,
+   "prediksi_linier_sensor_terbaik": 10260202373.71201,
+   "baseline_sensor_terbaik": 461.125
+  },
+  "SIP 20": {
+   "prediksi_pls_semua_sensor": 6012331245.660815,
+   "prediksi_linier_sensor_terbaik": 7768175509.736511,
+   "baseline_sensor_terbaik": 454.6666666666667
+  },
+  "SIP 40": {
+   "prediksi_pls_semua_sensor": 16637804842.16764,
+   "prediksi_linier_sensor_terbaik": 10958468421.763575,
+   "baseline_sensor_terbaik": 504.55
+  },
+  "SIP 50": {
+   "prediksi_pls_semua_sensor": 18424355758.316277,
+   "prediksi_linier_sensor_terbaik": 16946179234.174057,
+   "baseline_sensor_terbaik": 584.8666666666667
+  },
+  "SIP 60": {
+   "prediksi_pls_semua_sensor": 9824834010.586407,
+   "prediksi_linier_sensor_terbaik": 14375644948.67788,
+   "baseline_sensor_terbaik": 553.45
+  }
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "slope_segar_vs_panas": {
+  "akurasi": 0.9428571428571428,
+  "akurasi_seimbang": 0.925
+ },
+ "slope_segar_vs_panas_tinggalkan_sesi": {
+  "akurasi": 0.9,
+  "akurasi_seimbang": 0.8583333333333334
+ }
+}

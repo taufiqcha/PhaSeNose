@@ -1,0 +1,18 @@
+{
+ "skema": "label diacak di seluruh berkas atau titik, pembagi lipatan (sesi atau LOO) tetap",
+ "E3_minirocket_tinggalkan_sesi": {
+  "statistik": 1.0,
+  "p": 0.004975124378109453,
+  "jumlah_permutasi": 200
+ },
+ "E8_lda_slope_tinggalkan_sesi": {
+  "statistik": 0.8583333333333334,
+  "p": 0.004975124378109453,
+  "jumlah_permutasi": 200
+ },
+ "E5_pls_semua_sensor_R2_LOO": {
+  "statistik": 0.7786943604618559,
+  "p": 0.004975124378109453,
+  "jumlah_permutasi": 200
+ }
+}

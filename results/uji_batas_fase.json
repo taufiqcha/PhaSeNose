@@ -1,0 +1,1006 @@
+{
+ "metode": {
+  "sensor": [
+   "S1",
+   "S8"
+  ],
+  "jendela_halus": 5,
+  "baris_baseline": [
+   5,
+   28
+  ],
+  "cari_naik": [
+   20,
+   60
+  ],
+  "cari_turun": [
+   130,
+   200
+  ],
+  "ambang_amplitudo_mV": 60,
+  "definisi": "awal fase = baris t setelah beda v[t] - v[t-1] terbesar (naik) atau terkecil (turun)"
+ },
+ "berkas_total": 70,
+ "berkas_kuat": 61,
+ "berkas_gugur": [
+  {
+   "berkas": "SA_0-1.xlsx",
+   "minyak": "SA",
+   "jam": 0
+  },
+  {
+   "berkas": "SA_0-3.xlsx",
+   "minyak": "SA",
+   "jam": 0
+  },
+  {
+   "berkas": "SA_0-4.xlsx",
+   "minyak": "SA",
+   "jam": 0
+  },
+  {
+   "berkas": "SA_0-5.xlsx",
+   "minyak": "SA",
+   "jam": 0
+  },
+  {
+   "berkas": "SIP_0-1.xlsx",
+   "minyak": "SIP",
+   "jam": 0
+  },
+  {
+   "berkas": "SIP_0-2.xlsx",
+   "minyak": "SIP",
+   "jam": 0
+  },
+  {
+   "berkas": "SIP_0-3.xlsx",
+   "minyak": "SIP",
+   "jam": 0
+  },
+  {
+   "berkas": "SIP_0-4.xlsx",
+   "minyak": "SIP",
+   "jam": 0
+  },
+  {
+   "berkas": "SIP_0-5.xlsx",
+   "minyak": "SIP",
+   "jam": 0
+  }
+ ],
+ "ringkasan": {
+  "halus": {
+   "awal_sampling": {
+    "berkas": 61,
+    "kuartil": {
+     "25": 34.0,
+     "50": 34.0,
+     "75": 34.0
+    },
+    "modus": 34,
+    "minimum": 21,
+    "maksimum": 36,
+    "frekuensi": {
+     "21": 1,
+     "33": 2,
+     "34": 48,
+     "35": 8,
+     "36": 2
+    },
+    "konstanta_data_py": 33,
+    "konstanta_sama_dengan_median": false,
+    "konstanta_sama_dengan_modus": false,
+    "konstanta_di_dalam_kuartil": false
+   },
+   "awal_purging": {
+    "berkas": 60,
+    "kuartil": {
+     "25": 158.0,
+     "50": 160.0,
+     "75": 163.0
+    },
+    "modus": 159,
+    "minimum": 135,
+    "maksimum": 193,
+    "frekuensi": {
+     "135": 1,
+     "141": 1,
+     "154": 2,
+     "155": 5,
+     "156": 2,
+     "157": 1,
+     "158": 4,
+     "159": 12,
+     "160": 6,
+     "161": 1,
+     "162": 7,
+     "163": 4,
+     "164": 1,
+     "165": 2,
+     "166": 1,
+     "167": 1,
+     "168": 3,
+     "170": 1,
+     "179": 2,
+     "181": 2,
+     "193": 1
+    },
+    "konstanta_data_py": 159,
+    "konstanta_sama_dengan_median": false,
+    "konstanta_sama_dengan_modus": true,
+    "konstanta_di_dalam_kuartil": true
+   }
+  },
+  "mentah": {
+   "awal_sampling": {
+    "berkas": 61,
+    "kuartil": {
+     "25": 33.0,
+     "50": 33.0,
+     "75": 34.0
+    },
+    "modus": 33,
+    "minimum": 23,
+    "maksimum": 37,
+    "frekuensi": {
+     "23": 1,
+     "26": 1,
+     "32": 6,
+     "33": 28,
+     "34": 18,
+     "35": 5,
+     "36": 1,
+     "37": 1
+    },
+    "konstanta_data_py": 33,
+    "konstanta_sama_dengan_median": true,
+    "konstanta_sama_dengan_modus": true,
+    "konstanta_di_dalam_kuartil": true
+   },
+   "awal_purging": {
+    "berkas": 60,
+    "kuartil": {
+     "25": 154.75,
+     "50": 164.0,
+     "75": 181.0
+    },
+    "modus": 166,
+    "minimum": 130,
+    "maksimum": 200,
+    "frekuensi": {
+     "130": 1,
+     "134": 1,
+     "135": 1,
+     "136": 2,
+     "137": 1,
+     "139": 1,
+     "142": 1,
+     "144": 1,
+     "150": 1,
+     "151": 1,
+     "153": 2,
+     "154": 2,
+     "155": 2,
+     "156": 3,
+     "157": 2,
+     "158": 2,
+     "159": 2,
+     "160": 1,
+     "161": 1,
+     "162": 1,
+     "164": 3,
+     "165": 1,
+     "166": 5,
+     "167": 1,
+     "168": 1,
+     "169": 1,
+     "171": 1,
+     "172": 1,
+     "176": 1,
+     "180": 1,
+     "184": 1,
+     "185": 1,
+     "189": 3,
+     "190": 2,
+     "193": 1,
+     "197": 5,
+     "198": 1,
+     "200": 1
+    },
+    "konstanta_data_py": 159,
+    "konstanta_sama_dengan_median": false,
+    "konstanta_sama_dengan_modus": false,
+    "konstanta_di_dalam_kuartil": true
+   }
+  }
+ },
+ "kurva_median": {
+  "halus": {
+   "berkas": 69,
+   "awal_sampling": 34,
+   "awal_purging": 159,
+   "konstanta_awal_sampling_sama": false,
+   "konstanta_awal_purging_sama": true
+  },
+  "mentah": {
+   "berkas": 69,
+   "awal_sampling": 33,
+   "awal_purging": 137,
+   "konstanta_awal_sampling_sama": true,
+   "konstanta_awal_purging_sama": false
+  }
+ },
+ "per_berkas": {
+  "SA_0-1.xlsx": {
+   "amplitudo_mV": 53.258333333333326,
+   "halus": {
+    "awal_sampling": 39,
+    "awal_purging": 191
+   },
+   "mentah": {
+    "awal_sampling": 41,
+    "awal_purging": 181
+   }
+  },
+  "SA_0-2.xlsx": {
+   "amplitudo_mV": 60.23333333333335,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 159
+   },
+   "mentah": {
+    "awal_sampling": 32,
+    "awal_purging": 136
+   }
+  },
+  "SA_0-3.xlsx": {
+   "amplitudo_mV": 58.98333333333335,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 164
+   },
+   "mentah": {
+    "awal_sampling": 55,
+    "awal_purging": 154
+   }
+  },
+  "SA_0-4.xlsx": {
+   "amplitudo_mV": 51.08333333333337,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 137
+   },
+   "mentah": {
+    "awal_sampling": 32,
+    "awal_purging": 168
+   }
+  },
+  "SA_0-5.xlsx": {
+   "amplitudo_mV": 42.375,
+   "halus": {
+    "awal_sampling": 35,
+    "awal_purging": 165
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 134
+   }
+  },
+  "SA_10-1.xlsx": {
+   "amplitudo_mV": 172.46666666666658,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 162
+   },
+   "mentah": {
+    "awal_sampling": 32,
+    "awal_purging": 164
+   }
+  },
+  "SA_10-2.xlsx": {
+   "amplitudo_mV": 138.49166666666667,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 156
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 156
+   }
+  },
+  "SA_10-3.xlsx": {
+   "amplitudo_mV": 120.9333333333334,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 135
+   },
+   "mentah": {
+    "awal_sampling": 36,
+    "awal_purging": 184
+   }
+  },
+  "SA_10-4.xlsx": {
+   "amplitudo_mV": 116.45833333333337,
+   "halus": {
+    "awal_sampling": 33,
+    "awal_purging": 165
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 165
+   }
+  },
+  "SA_10-5.xlsx": {
+   "amplitudo_mV": 104.75,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 159
+   },
+   "mentah": {
+    "awal_sampling": 32,
+    "awal_purging": 153
+   }
+  },
+  "SA_20-1.xlsx": {
+   "amplitudo_mV": 183.54999999999995,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": null
+   },
+   "mentah": {
+    "awal_sampling": 32,
+    "awal_purging": null
+   }
+  },
+  "SA_20-2.xlsx": {
+   "amplitudo_mV": 143.47500000000002,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 164
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 166
+   }
+  },
+  "SA_20-3.xlsx": {
+   "amplitudo_mV": 148.58333333333337,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 168
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 185
+   }
+  },
+  "SA_20-4.xlsx": {
+   "amplitudo_mV": 172.51666666666665,
+   "halus": {
+    "awal_sampling": 35,
+    "awal_purging": 154
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 142
+   }
+  },
+  "SA_20-5.xlsx": {
+   "amplitudo_mV": 151.625,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 163
+   },
+   "mentah": {
+    "awal_sampling": 32,
+    "awal_purging": 168
+   }
+  },
+  "SA_30-1.xlsx": {
+   "amplitudo_mV": 161.1833333333334,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 159
+   },
+   "mentah": {
+    "awal_sampling": 32,
+    "awal_purging": 137
+   }
+  },
+  "SA_30-2.xlsx": {
+   "amplitudo_mV": 203.5666666666666,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 165
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 144
+   }
+  },
+  "SA_30-3.xlsx": {
+   "amplitudo_mV": 198.89166666666665,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 159
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 197
+   }
+  },
+  "SA_30-4.xlsx": {
+   "amplitudo_mV": 177.8083333333334,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 193
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 139
+   }
+  },
+  "SA_30-5.xlsx": {
+   "amplitudo_mV": 141.32500000000005,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 141
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 164
+   }
+  },
+  "SA_40-1.xlsx": {
+   "amplitudo_mV": 141.24166666666667,
+   "halus": {
+    "awal_sampling": 33,
+    "awal_purging": 156
+   },
+   "mentah": {
+    "awal_sampling": 35,
+    "awal_purging": 134
+   }
+  },
+  "SA_40-2.xlsx": {
+   "amplitudo_mV": 130.24166666666667,
+   "halus": {
+    "awal_sampling": 35,
+    "awal_purging": 181
+   },
+   "mentah": {
+    "awal_sampling": 35,
+    "awal_purging": 197
+   }
+  },
+  "SA_40-3.xlsx": {
+   "amplitudo_mV": 111.10833333333335,
+   "halus": {
+    "awal_sampling": 35,
+    "awal_purging": 179
+   },
+   "mentah": {
+    "awal_sampling": 37,
+    "awal_purging": 136
+   }
+  },
+  "SA_40-4.xlsx": {
+   "amplitudo_mV": 100.64999999999998,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 179
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 166
+   }
+  },
+  "SA_40-5.xlsx": {
+   "amplitudo_mV": 90.375,
+   "halus": {
+    "awal_sampling": 36,
+    "awal_purging": 163
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 190
+   }
+  },
+  "SA_50-1.xlsx": {
+   "amplitudo_mV": 181.08333333333337,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 162
+   },
+   "mentah": {
+    "awal_sampling": 35,
+    "awal_purging": 151
+   }
+  },
+  "SA_50-2.xlsx": {
+   "amplitudo_mV": 148.52499999999998,
+   "halus": {
+    "awal_sampling": 35,
+    "awal_purging": 160
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 166
+   }
+  },
+  "SA_50-3.xlsx": {
+   "amplitudo_mV": 159.97500000000002,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 166
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 155
+   }
+  },
+  "SA_50-4.xlsx": {
+   "amplitudo_mV": 155.6833333333334,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 168
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 166
+   }
+  },
+  "SA_50-5.xlsx": {
+   "amplitudo_mV": 139.39999999999998,
+   "halus": {
+    "awal_sampling": 35,
+    "awal_purging": 181
+   },
+   "mentah": {
+    "awal_sampling": 26,
+    "awal_purging": 167
+   }
+  },
+  "SA_60-1.xlsx": {
+   "amplitudo_mV": 165.39999999999998,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 163
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 154
+   }
+  },
+  "SA_60-2.xlsx": {
+   "amplitudo_mV": 201.85000000000002,
+   "halus": {
+    "awal_sampling": 35,
+    "awal_purging": 159
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 164
+   }
+  },
+  "SA_60-3.xlsx": {
+   "amplitudo_mV": 308.0083333333333,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 158
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 200
+   }
+  },
+  "SA_60-4.xlsx": {
+   "amplitudo_mV": 122.16666666666663,
+   "halus": {
+    "awal_sampling": 35,
+    "awal_purging": 162
+   },
+   "mentah": {
+    "awal_sampling": 35,
+    "awal_purging": 176
+   }
+  },
+  "SA_60-5.xlsx": {
+   "amplitudo_mV": 167.39999999999998,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 159
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 198
+   }
+  },
+  "SIP_0-1.xlsx": {
+   "amplitudo_mV": 31.241666666666674,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 168
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 139
+   }
+  },
+  "SIP_0-2.xlsx": {
+   "amplitudo_mV": 39.70833333333337,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 187
+   },
+   "mentah": {
+    "awal_sampling": 43,
+    "awal_purging": 140
+   }
+  },
+  "SIP_0-3.xlsx": {
+   "amplitudo_mV": 55.116666666666674,
+   "halus": {
+    "awal_sampling": 33,
+    "awal_purging": 161
+   },
+   "mentah": {
+    "awal_sampling": 37,
+    "awal_purging": 184
+   }
+  },
+  "SIP_0-4.xlsx": {
+   "amplitudo_mV": 39.95833333333337,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 196
+   },
+   "mentah": {
+    "awal_sampling": 30,
+    "awal_purging": 194
+   }
+  },
+  "SIP_0-5.xlsx": {
+   "amplitudo_mV": 57.366666666666674,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 174
+   },
+   "mentah": {
+    "awal_sampling": 32,
+    "awal_purging": 164
+   }
+  },
+  "SIP_10-1.xlsx": {
+   "amplitudo_mV": 406.2249999999999,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 159
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 180
+   }
+  },
+  "SIP_10-2.xlsx": {
+   "amplitudo_mV": 423.1166666666667,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 155
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 157
+   }
+  },
+  "SIP_10-3.xlsx": {
+   "amplitudo_mV": 431.4666666666666,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 160
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 189
+   }
+  },
+  "SIP_10-4.xlsx": {
+   "amplitudo_mV": 431.4666666666666,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 160
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 189
+   }
+  },
+  "SIP_10-5.xlsx": {
+   "amplitudo_mV": 447.5666666666667,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 155
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 171
+   }
+  },
+  "SIP_20-1.xlsx": {
+   "amplitudo_mV": 282.35833333333346,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 155
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 197
+   }
+  },
+  "SIP_20-2.xlsx": {
+   "amplitudo_mV": 411.6500000000001,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 159
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 130
+   }
+  },
+  "SIP_20-3.xlsx": {
+   "amplitudo_mV": 382.1500000000001,
+   "halus": {
+    "awal_sampling": 35,
+    "awal_purging": 162
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 158
+   }
+  },
+  "SIP_20-4.xlsx": {
+   "amplitudo_mV": 353.41666666666663,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 158
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 160
+   }
+  },
+  "SIP_20-5.xlsx": {
+   "amplitudo_mV": 245.5999999999999,
+   "halus": {
+    "awal_sampling": 36,
+    "awal_purging": 158
+   },
+   "mentah": {
+    "awal_sampling": 35,
+    "awal_purging": 156
+   }
+  },
+  "SIP_30-1.xlsx": {
+   "amplitudo_mV": 409.45000000000005,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 155
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 162
+   }
+  },
+  "SIP_30-2.xlsx": {
+   "amplitudo_mV": 373.67499999999995,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 160
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 158
+   }
+  },
+  "SIP_30-3.xlsx": {
+   "amplitudo_mV": 344.5,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 154
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 193
+   }
+  },
+  "SIP_30-4.xlsx": {
+   "amplitudo_mV": 321.5916666666666,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 155
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 135
+   }
+  },
+  "SIP_30-5.xlsx": {
+   "amplitudo_mV": 319.0916666666666,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 162
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 166
+   }
+  },
+  "SIP_40-1.xlsx": {
+   "amplitudo_mV": 319.0999999999999,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 159
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 159
+   }
+  },
+  "SIP_40-2.xlsx": {
+   "amplitudo_mV": 322.06666666666683,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 167
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 169
+   }
+  },
+  "SIP_40-3.xlsx": {
+   "amplitudo_mV": 284.1166666666668,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 160
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 190
+   }
+  },
+  "SIP_40-4.xlsx": {
+   "amplitudo_mV": 270.8666666666668,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 161
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 156
+   }
+  },
+  "SIP_40-5.xlsx": {
+   "amplitudo_mV": 278.76666666666665,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 159
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 157
+   }
+  },
+  "SIP_50-1.xlsx": {
+   "amplitudo_mV": 309.57500000000005,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 163
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 159
+   }
+  },
+  "SIP_50-2.xlsx": {
+   "amplitudo_mV": 228.6583333333333,
+   "halus": {
+    "awal_sampling": 21,
+    "awal_purging": 170
+   },
+   "mentah": {
+    "awal_sampling": 23,
+    "awal_purging": 172
+   }
+  },
+  "SIP_50-3.xlsx": {
+   "amplitudo_mV": 147.95000000000005,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 159
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 197
+   }
+  },
+  "SIP_50-4.xlsx": {
+   "amplitudo_mV": 241.0250000000001,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 157
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 155
+   }
+  },
+  "SIP_50-5.xlsx": {
+   "amplitudo_mV": 266.2583333333333,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 162
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 150
+   }
+  },
+  "SIP_60-1.xlsx": {
+   "amplitudo_mV": 337.0916666666666,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 168
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 161
+   }
+  },
+  "SIP_60-2.xlsx": {
+   "amplitudo_mV": 435.85833333333346,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 162
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 153
+   }
+  },
+  "SIP_60-3.xlsx": {
+   "amplitudo_mV": 259.70000000000005,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 158
+   },
+   "mentah": {
+    "awal_sampling": 34,
+    "awal_purging": 189
+   }
+  },
+  "SIP_60-4.xlsx": {
+   "amplitudo_mV": 184.20833333333326,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 160
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 154
+   }
+  },
+  "SIP_60-5_.xlsx": {
+   "amplitudo_mV": 299.51666666666654,
+   "halus": {
+    "awal_sampling": 34,
+    "awal_purging": 159
+   },
+   "mentah": {
+    "awal_sampling": 33,
+    "awal_purging": 197
+   }
+  }
+ }
+}

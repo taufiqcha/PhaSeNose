@@ -1,0 +1,285 @@
+{
+ "sesi": {
+  "sesi": {
+   "SA_0113": [
+    0,
+    10
+   ],
+   "SA_0118": [
+    20,
+    30,
+    40
+   ],
+   "SA_0119": [
+    50
+   ],
+   "SA_0120": [
+    60
+   ],
+   "SIP_0102": [
+    40
+   ],
+   "SIP_0103": [
+    40,
+    50,
+    60
+   ],
+   "SIP_0104": [
+    0
+   ],
+   "SIP_1230": [
+    0,
+    10,
+    20,
+    30
+   ]
+  },
+  "sesi_jeda": {
+   "SA_1": [
+    0,
+    10
+   ],
+   "SA_2": [
+    20,
+    30
+   ],
+   "SA_3": [
+    40
+   ],
+   "SA_4": [
+    50
+   ],
+   "SA_5": [
+    60
+   ],
+   "SIP_1": [
+    0,
+    10,
+    20
+   ],
+   "SIP_2": [
+    30
+   ],
+   "SIP_3": [
+    40
+   ],
+   "SIP_4": [
+    40,
+    50,
+    60
+   ],
+   "SIP_5": [
+    0
+   ]
+  }
+ },
+ "jumlah_berkas": {
+  "sesi": {
+   "SA_0113 jam 0": 5,
+   "SA_0113 jam 10": 5,
+   "SA_0118 jam 20": 5,
+   "SA_0118 jam 30": 5,
+   "SA_0118 jam 40": 5,
+   "SA_0119 jam 50": 5,
+   "SA_0120 jam 60": 5,
+   "SIP_0102 jam 40": 1,
+   "SIP_0103 jam 40": 4,
+   "SIP_0103 jam 50": 5,
+   "SIP_0103 jam 60": 5,
+   "SIP_0104 jam 0": 4,
+   "SIP_1230 jam 0": 1,
+   "SIP_1230 jam 10": 5,
+   "SIP_1230 jam 20": 5,
+   "SIP_1230 jam 30": 5
+  },
+  "sesi_jeda": {
+   "SA_1 jam 0": 5,
+   "SA_1 jam 10": 5,
+   "SA_2 jam 20": 5,
+   "SA_2 jam 30": 5,
+   "SA_3 jam 40": 5,
+   "SA_4 jam 50": 5,
+   "SA_5 jam 60": 5,
+   "SIP_1 jam 0": 1,
+   "SIP_1 jam 10": 5,
+   "SIP_1 jam 20": 5,
+   "SIP_2 jam 30": 5,
+   "SIP_3 jam 40": 1,
+   "SIP_4 jam 40": 4,
+   "SIP_4 jam 50": 5,
+   "SIP_4 jam 60": 5,
+   "SIP_5 jam 0": 4
+  }
+ },
+ "jeda_sesi_jam": 3,
+ "urutan_sesi": [
+  {
+   "sesi": "SIP_1230",
+   "minyak": "SIP",
+   "mulai": "2023-12-30 05:25:12",
+   "jam": [
+    0,
+    10,
+    20,
+    30
+   ]
+  },
+  {
+   "sesi": "SIP_0102",
+   "minyak": "SIP",
+   "mulai": "2024-01-02 11:57:32",
+   "jam": [
+    40
+   ]
+  },
+  {
+   "sesi": "SIP_0103",
+   "minyak": "SIP",
+   "mulai": "2024-01-03 14:23:56",
+   "jam": [
+    40,
+    50,
+    60
+   ]
+  },
+  {
+   "sesi": "SIP_0104",
+   "minyak": "SIP",
+   "mulai": "2024-01-04 18:35:22",
+   "jam": [
+    0
+   ]
+  },
+  {
+   "sesi": "SA_0113",
+   "minyak": "SA",
+   "mulai": "2024-01-13 00:03:26",
+   "jam": [
+    0,
+    10
+   ]
+  },
+  {
+   "sesi": "SA_0118",
+   "minyak": "SA",
+   "mulai": "2024-01-18 00:22:42",
+   "jam": [
+    20,
+    30,
+    40
+   ]
+  },
+  {
+   "sesi": "SA_0119",
+   "minyak": "SA",
+   "mulai": "2024-01-19 00:28:44",
+   "jam": [
+    50
+   ]
+  },
+  {
+   "sesi": "SA_0120",
+   "minyak": "SA",
+   "mulai": "2024-01-20 02:30:30",
+   "jam": [
+    60
+   ]
+  }
+ ],
+ "koreksi_komponen_5fold": {
+  "varian_pc1_baseline": 0.835673972274958,
+  "segar_vs_panas": {
+   "akurasi": 0.8285714285714286,
+   "akurasi_seimbang": 0.5666666666666667
+  },
+  "segar_vs_panas_tinggalkan_sesi": {
+   "akurasi": 0.8285714285714286,
+   "akurasi_seimbang": 0.5666666666666667
+  }
+ },
+ "lda_dR_tinggalkan_sesi": {
+  "akurasi": 0.8714285714285714,
+  "akurasi_seimbang": 0.7166666666666667,
+  "per_kelompok": {
+   "SA_0113": 0.7,
+   "SA_0118": 0.9333333333333333,
+   "SA_0119": 1.0,
+   "SA_0120": 1.0,
+   "SIP_0102": 1.0,
+   "SIP_0103": 0.8571428571428571,
+   "SIP_0104": 0.5,
+   "SIP_1230": 0.9375
+  }
+ },
+ "minirocket": {
+  "kelas_panas": {
+   "berkas": 69,
+   "segar": 10,
+   "dipanaskan": 59
+  },
+  "respons_5fold": {
+   "akurasi": 1.0,
+   "akurasi_seimbang": 1.0
+  },
+  "respons_tinggalkan_sesi": {
+   "akurasi": 1.0,
+   "akurasi_seimbang": 1.0,
+   "per_kelompok": {
+    "SA_0113": 1.0,
+    "SA_0118": 1.0,
+    "SA_0119": 1.0,
+    "SA_0120": 1.0,
+    "SIP_0102": 1.0,
+    "SIP_0103": 1.0,
+    "SIP_0104": 1.0,
+    "SIP_1230": 1.0
+   }
+  },
+  "kontrol_pra_sampling_tinggalkan_sesi": {
+   "akurasi": 0.855072463768116,
+   "akurasi_seimbang": 0.5415254237288136,
+   "per_kelompok": {
+    "SA_0113": 0.5,
+    "SA_0118": 0.9285714285714286,
+    "SA_0119": 1.0,
+    "SA_0120": 1.0,
+    "SIP_0102": 1.0,
+    "SIP_0103": 1.0,
+    "SIP_0104": 0.25,
+    "SIP_1230": 0.9375
+   }
+  },
+  "respons_tinggalkan_sesi_jeda": {
+   "akurasi": 1.0,
+   "akurasi_seimbang": 1.0,
+   "per_kelompok": {
+    "SA_1": 1.0,
+    "SA_2": 1.0,
+    "SA_3": 1.0,
+    "SA_4": 1.0,
+    "SA_5": 1.0,
+    "SIP_1": 1.0,
+    "SIP_2": 1.0,
+    "SIP_3": 1.0,
+    "SIP_4": 1.0,
+    "SIP_5": 1.0
+   }
+  },
+  "kontrol_pra_sampling_tinggalkan_sesi_jeda": {
+   "akurasi": 0.855072463768116,
+   "akurasi_seimbang": 0.5415254237288136,
+   "per_kelompok": {
+    "SA_1": 0.5,
+    "SA_2": 1.0,
+    "SA_3": 0.8,
+    "SA_4": 1.0,
+    "SA_5": 1.0,
+    "SIP_1": 0.9090909090909091,
+    "SIP_2": 1.0,
+    "SIP_3": 1.0,
+    "SIP_4": 1.0,
+    "SIP_5": 0.25
+   }
+  }
+ }
+}

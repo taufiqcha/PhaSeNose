@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Electronic nose recordings and headspace GC–MS profiles of two palm cooking oils under repeated heating"
+abstract: >-
+  Raw electronic-nose recordings, raw headspace GC–MS reports, analysis code,
+  and computed results for the article "Screening of repeatedly heated palm
+  cooking oil using a phase-aware low-cost electronic nose and GC–MS". The
+  code reproduces the results of that article from the data in the data folder
+  of this repository.
+type: software
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/taufiqcha/PhaSeNose"
+version: 1.0.0
+authors:
+  - family-names: "Amri"
+    given-names: "Taufiq Choirul"
+    affiliation: "Department of Informatics, Institut Teknologi Sepuluh Nopember"
+    orcid: "https://orcid.org/0009-0006-2474-6650"
+keywords:
+  - Cooking oil quality
+  - Electronic nose
+  - GC–MS
+  - Grouped cross-validation
+  - Metal oxide sensors
+  - Palm oil
+  - Sensor drift

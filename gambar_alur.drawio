@@ -1,0 +1,63 @@
+<mxfile host="drawio">
+  <diagram id="alur" name="PhaSeNose">
+    <mxGraphModel grid="1" gridSize="4" page="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="minyak" value="&lt;b&gt;Palm cooking oil&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;SA premium&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;SIP economy&lt;/span&gt;" style="html=1;whiteSpace=wrap;rounded=1;absoluteArcSize=1;arcSize=8;shadow=0;strokeWidth=1;fontFamily=Arial;fontSize=13;fontColor=#2d3142;align=center;verticalAlign=middle;spacing=8;strokeColor=#4f5d75;fillColor=#4f5d75;fillOpacity=10;" vertex="1" parent="1">
+          <mxGeometry x="0" y="112" width="128" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="panas" value="&lt;b&gt;Repeated heating&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;5 min at 200 °C&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;once per hour&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;0–60 h&lt;/span&gt;" style="html=1;whiteSpace=wrap;rounded=1;absoluteArcSize=1;arcSize=8;shadow=0;strokeWidth=1;fontFamily=Arial;fontSize=13;fontColor=#2d3142;align=center;verticalAlign=middle;spacing=8;strokeColor=#2d3142;fillColor=#ffffff;fillOpacity=100;" vertex="1" parent="1">
+          <mxGeometry x="152" y="112" width="160" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="gcms" value="&lt;b&gt;HS-SPME GC–MS&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;10 samples&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;total area &lt;i&gt;Q&lt;/i&gt;&lt;/span&gt;" style="html=1;whiteSpace=wrap;rounded=1;absoluteArcSize=1;arcSize=8;shadow=0;strokeWidth=1;fontFamily=Arial;fontSize=13;fontColor=#2d3142;align=center;verticalAlign=middle;spacing=8;strokeColor=#2d3142;fillColor=#2d3142;fillOpacity=5;" vertex="1" parent="1">
+          <mxGeometry x="152" y="0" width="160" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="enose" value="&lt;b&gt;E-nose, 8 MOS&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;conditioning 0–32 s&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;sampling 33–158 s&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;purging 159–239 s&lt;/span&gt;" style="html=1;whiteSpace=wrap;rounded=1;absoluteArcSize=1;arcSize=8;shadow=0;strokeWidth=1;fontFamily=Arial;fontSize=13;fontColor=#2d3142;align=center;verticalAlign=middle;spacing=8;strokeColor=#2d3142;fillColor=#ffffff;fillOpacity=100;" vertex="1" parent="1">
+          <mxGeometry x="152" y="224" width="160" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="rasio" value="&lt;b&gt;(i) Grade and GC–MS link&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;SIP/SA ratio ϕ(&lt;i&gt;h&lt;/i&gt;), Eq. 6&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;LOO PLS of &lt;i&gt;Q&lt;/i&gt; on Δ&lt;i&gt;R&lt;/i&gt;&lt;/span&gt;" style="html=1;whiteSpace=wrap;rounded=1;absoluteArcSize=1;arcSize=8;shadow=0;strokeWidth=1;fontFamily=Arial;fontSize=13;fontColor=#2d3142;align=center;verticalAlign=middle;spacing=8;strokeColor=#2d3142;fillColor=#ffffff;fillOpacity=100;" vertex="1" parent="1">
+          <mxGeometry x="336" y="0" width="200" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="fitur" value="&lt;b&gt;(ii) Phase-aware features&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;baseline 5–28 s&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;steady window 107–147 s&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;peak − baseline, slope&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;Eqs. 1–4&lt;/span&gt;" style="html=1;whiteSpace=wrap;rounded=1;absoluteArcSize=1;arcSize=8;shadow=0;strokeWidth=1.2;fontFamily=Arial;fontSize=13;fontColor=#2d3142;align=center;verticalAlign=middle;spacing=8;strokeColor=#bf4520;fillColor=#bf4520;fillOpacity=8;" vertex="1" parent="1">
+          <mxGeometry x="336" y="224" width="200" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="detektor" value="&lt;b&gt;(iii) Detector&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;MiniRocket and ridge&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;leave one session out&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;air control&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:12px;color:#5a6580&quot;&gt;Algorithm 1&lt;/span&gt;" style="html=1;whiteSpace=wrap;rounded=1;absoluteArcSize=1;arcSize=8;shadow=0;strokeWidth=1.2;fontFamily=Arial;fontSize=13;fontColor=#2d3142;align=center;verticalAlign=middle;spacing=8;strokeColor=#bf4520;fillColor=#bf4520;fillOpacity=8;" vertex="1" parent="1">
+          <mxGeometry x="560" y="224" width="160" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="panah1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;endSize=5;strokeWidth=1;strokeColor=#4f5d75;fontFamily=Arial;fontSize=12;fontColor=#4f5d75;labelBackgroundColor=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="minyak" target="panas">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panah2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;endSize=5;strokeWidth=1;strokeColor=#4f5d75;fontFamily=Arial;fontSize=12;fontColor=#4f5d75;labelBackgroundColor=none;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="panas" target="gcms">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panah3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;endSize=5;strokeWidth=1;strokeColor=#4f5d75;fontFamily=Arial;fontSize=12;fontColor=#4f5d75;labelBackgroundColor=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="panas" target="enose">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panah4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;endSize=5;strokeWidth=1;strokeColor=#4f5d75;fontFamily=Arial;fontSize=12;fontColor=#4f5d75;labelBackgroundColor=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="gcms" target="rasio">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panah5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;endSize=5;strokeWidth=1;strokeColor=#4f5d75;fontFamily=Arial;fontSize=12;fontColor=#4f5d75;labelBackgroundColor=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="enose" target="fitur">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panah6" value="mean Δ&lt;i&gt;R&lt;/i&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;endSize=5;strokeWidth=1;strokeColor=#4f5d75;fontFamily=Arial;fontSize=12;fontColor=#4f5d75;labelBackgroundColor=none;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="fitur" target="rasio">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="36" y="0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panah7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;endSize=5;strokeWidth=1;strokeColor=#4f5d75;fontFamily=Arial;fontSize=12;fontColor=#4f5d75;labelBackgroundColor=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="fitur" target="detektor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="panah8" value="air 0–32 s" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;endSize=5;strokeWidth=1;strokeColor=#4f5d75;fontFamily=Arial;fontSize=12;fontColor=#4f5d75;labelBackgroundColor=none;exitX=0.5;exitY=1;entryX=0.5;entryY=1;dashed=1;dashPattern=4 3;" edge="1" parent="1" source="enose" target="detektor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="0" y="14" as="offset" />
+            <Array as="points">
+              <mxPoint x="232" y="336" />
+              <mxPoint x="640" y="336" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
