@@ -8,9 +8,7 @@ abstract: >-
   code reproduces the results of that article from the data in the data folder
   of this repository.
 type: software
-license:
-  - MIT
-  - CC-BY-4.0
+license: CC-BY-4.0
 repository-code: "https://github.com/taufiqcha/PhaSeNose"
 version: 1.0.0
 authors:
